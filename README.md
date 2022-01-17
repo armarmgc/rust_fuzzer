@@ -2,6 +2,8 @@
 
 A simple file format fuzzer for unix based systems written in rust
 
+**WARNING**: WSL 2 (WSL 1 untested) may cause large amounts of disk space (GB/s) to be eaten up on some target files (including the test file) when they crash with not a known way to get back other than resetting the WSL 2 filesystem. This fuzzer works fine for virtual machines.
+
 ## Reqirements
 - Cargo (>=1.53.0)
 
