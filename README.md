@@ -28,3 +28,8 @@ cp target/release/rust_fuzzer .
 ./rust_fuzzer [target] [options]...
 ```
 
+Install to path
+```
+cargo install -path .
+rust_fuzzer [target] [options]...
+```
